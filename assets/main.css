@@ -1,0 +1,169 @@
+html, body, header, nav, h1, a,
+ul, li, strong, main, button, i,
+section, img, div, h2, p, form,
+fieldset, label, input, textarea,
+span, article, footer, time, small {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  color: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  vertical-align: inherit;
+  box-sizing: inherit;
+  background: transparent;
+  font-family: 'Poiret One', cursive;
+}
+
+ul {
+  list-style: none;
+}
+
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	width: 100vw;
+}
+
+header {
+	height: 80px;
+	/*background: #704782;*/
+	background: #bae1ff;
+	/*border-bottom: 5px solid #004298;*/
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {
+	align-self: center;
+	color: white;
+	font-size: 36px;
+	font-weight: bolder;
+	letter-spacing: 2px;
+	margin-left: 40px;
+}
+
+.navigation {
+	align-self: center;
+	color: white;
+	font-size: 24px;
+	margin-right: 40px;
+}
+
+.portfolio-links {
+	display: flex;
+	justify-content: space-between;
+	width: 150px;
+}
+
+.portfolio-links li {
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 10px;
+}
+
+.portfolio-links li:hover {
+	background-color: #ffd8ba;
+}
+
+
+.main {
+	display: flex;
+	justify-content: flex-start;
+	height: 100vh;
+}
+
+.game-controls {
+	display: flex;
+	align-self: center;
+	font-size: 18px;
+	margin-right: 60px;
+}
+
+.game-controls li {
+	align-self: center;
+	background: white;
+	padding: 5px;
+	margin-right: 10px;
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.score {
+	width: 150px;
+}
+
+.time {
+	width: 70px;
+}
+
+.game-content {
+	display: flex;
+	justify-content: center;
+	width: 100vw;
+}
+
+.canvas {
+	align-self: center;
+	border: 20px solid #bae1ff;
+	border-radius: 30px;
+}
+
+.fireworks {
+	align-self: center;
+	position: absolute;
+}
+
+.start {
+	font-size: 36px;
+	align-self: center;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	background: #bae1ff;
+	padding: 20px;
+	color: white;
+	border-radius: 40px;
+
+}
+
+.start:hover {
+	background-color: #ffd8ba;
+}
+
+.rules {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	
+}
+
+.rules h1 {
+	font-size: 36px;
+	font-weight: bolder;
+	align-self: center;
+}
+
+.rules p {
+	font-size: 20px;
+	text-align: center;
+}
+
+.how-to-gif {
+	align-self: center;
+}
+
+
+
+
+
